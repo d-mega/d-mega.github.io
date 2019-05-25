@@ -1,0 +1,13 @@
+.btn,
+.land_form{
+    display: none;
+}
+
+.footer_text{
+    width: 100%;
+    margin-left: 0;
+}
+
+a.thumbnail:after{
+    content: '';
+}

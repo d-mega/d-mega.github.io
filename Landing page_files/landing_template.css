@@ -1,0 +1,181 @@
+.service {
+	overflow: hidden; 
+	margin-bottom: 10px;
+	padding: 15px 15px 10px;
+}
+.service:hover {
+	background: #fcfcfc;
+	box-shadow: 0 0 5px #ddd;
+    -webkit-transition: box-shadow 0.2s ease-in-out;
+    -moz-transition: box-shadow 0.2s ease-in-out;
+    -o-transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.service:hover i {
+	color: #656565;
+}
+
+.service .desc {
+	padding: 0 15px; 
+	overflow: hidden;
+}
+.service .desc h4 {
+	font-size: 22px;
+	line-height: 25px;
+}
+
+.service .service-icon {
+	float: left;
+	padding: 10px;
+	color: #72c02c;
+	font-size: 35px;  
+	text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.service .service-icon.icon-cogs {
+	font-size: 37px;
+}
+.service .service-icon.icon-plane {
+	font-size: 43px;
+}
+
+.product{
+    /*text-align: center;*/
+    padding: 5px;
+}
+
+.product_price{
+    font-size: 170%;
+}
+
+.product.product_hidden{
+    opacity: .5;
+}
+
+.logo h2{
+    margin: 5px 0;
+    font-size: 26px;
+}
+
+.l_products .row.service-v1{
+    margin-bottom: 20px;
+}
+
+.da-slide.text_right h2,
+.da-slide.text_right p{
+    width: 43%;
+    margin-left: 45%;
+}
+
+.phone{
+    font-size: 26px;
+}
+.address{
+    font-size: 20px;
+}
+
+.l_header .btn{
+    margin-top: 17px;
+}
+
+.l_header .header_btn_right .btn{
+    margin-top: 0;
+}
+
+.l_header .description{
+    margin-top: 2px;
+}
+
+.l_header .description h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.l_button{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.l_button p{
+    margin: 10px auto 20px auto;
+    max-width: 800px;
+}
+
+.l_button a.btn{
+    font-size: 120%;
+}
+
+.landing_edit .lp_header_logo .logo .editable{
+    min-height: 30px;
+    min-width: 100px;
+}
+.single_slide .da-arrows,
+.single_slide .da-dots{
+    display: none;
+}
+@media (max-width: 768px) {
+    .l_company .dir_rtl{
+        position: relative;
+    }
+    .l_company .dir_rtl .l_company_image{
+        margin-bottom: 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .l_header .text-center{
+        text-align: right;
+    }
+    .footer_text{
+        margin-top: 20px;
+    }
+    .da-slide.text_right h2, 
+    .da-slide.text_right p {
+        width: 85% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .lp_header_btn,
+    .lp_header_logo{
+        width: 100%;
+    }
+    .lp_header_btn{
+        padding: 3px 0 20px 0;
+        text-align: center !important;
+    }
+}
+
+.p_images{
+    overflow: hidden;
+    margin: 10px -4px -4px -4px;
+}
+.p_images_image{
+    width: 33.3%;
+    float: left;
+    padding: 4px;
+}
+.p_images_image .thumbnail{
+    margin: 0;
+    height: 80px;
+}
+.p_images_image .thumbnail span{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.p_images_image .thumbnail img{
+    position: absolute;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
